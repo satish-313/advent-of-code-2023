@@ -1,11 +1,11 @@
 package main
 
 import (
-	"advent-of-code/day1"
+	_ "advent-of-code/day1"
+	_ "advent-of-code/day2"
 	"fmt"
 )
 
 func main() {
 	fmt.Println("advent of code")
-	fmt.Println(day1.Day1_2())
 }
