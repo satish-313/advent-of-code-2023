@@ -4,11 +4,12 @@ import (
 	_ "advent-of-code/day1"
 	_ "advent-of-code/day2"
 	_ "advent-of-code/day3"
-	"advent-of-code/day4"
+	_ "advent-of-code/day4"
+	"advent-of-code/day5"
 	"fmt"
 )
 
 func main() {
 	fmt.Println("advent of code")
-	fmt.Println(day4.Day4())
+	fmt.Println(day5.Day5a())
 }
